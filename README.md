@@ -1,1 +1,5 @@
 # Sentimental-Analysis-ESG
+
+ESG scores are designed to measure how sustainable a company is, but they don’t always capture how investors and the public truly feel. That gap between reported performance and market perception can reveal both risks and opportunities. I built an ESG investment sentiment analysis pipeline that combines ESG metrics from Yahoo Finance with real-time news data from NewsAPI. Using NLP tools like nltk and torch, the system analyzes headlines to measure sentiment and uncover how environmental, social, and governance issues are shaping investor confidence.
+
+The pipeline integrates data collection, sentiment classification, greenwashing detection, and visualization. By aligning sentiment trends with official ESG scores, it highlights when positive narratives don’t match actual performance, making it possible to spot potential greenwashing and shifts in trust. The result is a more dynamic view of sustainable investing, one that goes beyond static ratings and captures the stories driving real market behavior.
